@@ -17,7 +17,7 @@ class DialogBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      backgroundColor: Colors.yellow[300],
+      backgroundColor: Colors.green[300],
       content: Container(
         height: 120,
         child: Column(
@@ -28,21 +28,21 @@ class DialogBox extends StatelessWidget {
               controller: controller,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
-                hintText: "Add a new task",
+                hintText: "Nhập công việc",
               ),
             ),
 
             // buttons -> save + cancel
             Row(
-              mainAxisAlignment: MainAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 // save button
-                MyButton(text: "Save", onPressed: onSave),
+                MyButton(text: "Lưu", onPressed: onSave),
 
-                const SizedBox(width: 8),
+                const SizedBox(width: 10),
 
                 // cancel button
-                MyButton(text: "Cancel", onPressed: onCancel),
+                MyButton(text: "Trở về", onPressed: onCancel),
               ],
             ),
           ],
