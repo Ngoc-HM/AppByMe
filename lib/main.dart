@@ -137,7 +137,7 @@ class MyAppMe extends StatelessWidget {
                   },
                   // ignore: prefer_const_constructors
                   child: Text(
-                    "dk-sis",
+                    "DK-SIS",
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 20),
                   )),

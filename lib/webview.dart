@@ -5,13 +5,13 @@ class schooler extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Đăng kí học',
+      title: 'Schooler',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Đăng kí học'),
+          title: Text('Schooler'),
         ),
         body: WebView(
-          initialUrl: "https://dk-sis.hust.edu.vn/default.aspx",
+          initialUrl: "https://schooler.sun-asterisk.com/",
           javascriptMode: JavascriptMode.unrestricted,
         ),
       ),

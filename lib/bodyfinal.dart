@@ -130,6 +130,17 @@ class _MainPageState extends State<MainPage> {
           top: top,
           child: buildProfileImage(),
         ),
+        Positioned(
+          top: top + profileHeight + 10,
+          child: Text(
+            'ホアン・ミン・ゴック - HEDSPI',
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: Colors.black,
+            ),
+          ),
+        ),
       ],
     );
   }
@@ -149,6 +160,6 @@ class _MainPageState extends State<MainPage> {
         radius: profileHeight / 2,
         backgroundColor: Colors.grey.shade800,
         backgroundImage: NetworkImage(
-            'https://scontent.fhan14-2.fna.fbcdn.net/v/t39.30808-6/299838208_1759702944382962_5839240929343308989_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=qPgQz1anx98AX9SpImn&_nc_ht=scontent.fhan14-2.fna&oh=00_AfAvMENSeF2c44t1zjd5aLbDfYO9twTvWt8wE-KDVS28nQ&oe=638D275F'),
+            'https://lh3.googleusercontent.com/a/AGNmyxYQo3yJk1AOy82kVye3k1RdelhNIzr13SYTMSq56b8=s360'),
       );
 }
